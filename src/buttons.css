@@ -1,0 +1,20 @@
+/* Button 2 hover */
+.button-2:hover .button-2_text {
+  transform: translateX(4.1875em) rotate(0.001deg);
+}
+
+.button-2:hover .button-2_icon {
+  transform: scale(0) rotate(0.001deg);
+}
+
+.button-2_icon.is-duplicate svg {
+  transition: 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.button-2:hover .button-2_icon.is-duplicate {
+  transform: scale(1) rotate(0.001deg);
+}
+
+.button-2:hover .button-2_icon.is-duplicate svg {
+  transform: rotate(-90deg);
+}
